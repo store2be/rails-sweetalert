@@ -1,24 +1,13 @@
-# README
+# Rails +5.1 and SweetAlert2 example
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This project is there to demonstrate the usage of Ruby on Rails +5.1 (with [rails-ujs](https://github.com/rails/rails/tree/master/actionview/app/assets/javascripts/rails-ujs)) and [SweetAlert2](https://limonte.github.io/sweetalert2/).
 
-Things you may want to cover:
+## Setup
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```bash
+$ git clone git@github.com:peterfication/rails-sweetalert.git
+$ cd rails-sweetalert
+$ bundle
+$ yarn
+$ rails s
+```
