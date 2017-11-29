@@ -1,5 +1,7 @@
 {
   "name": "rails-sweetalert",
   "private": true,
-  "dependencies": {}
+  "dependencies": {
+    "sweetalert2": "^7.0.6"
+  }
 }
