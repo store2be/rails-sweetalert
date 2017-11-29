@@ -1,0 +1,12 @@
+<h1>Items</h1>
+
+<%= link_to 'Show',
+  item_path(1),
+  data: {confirm: 'Are you sure?'}
+%>
+
+<%= link_to 'Delete',
+  item_path(1),
+  method: :delete,
+  data: {confirm: 'Are you sure?'}
+%>
