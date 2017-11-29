@@ -11,3 +11,8 @@ $ bundle
 $ yarn
 $ rails s
 ```
+
+## TODO
+
+* Add a little bit of styling
+* Use Webpacker and imports
