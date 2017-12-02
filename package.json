@@ -4,6 +4,7 @@
   "dependencies": {
     "@rails/webpacker": "^3.0.2",
     "coffeescript": "1.12.7",
+    "rails-ujs": "^5.1.4",
     "sweetalert2": "^7.0.6"
   },
   "devDependencies": {
