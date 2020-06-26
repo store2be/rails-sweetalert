@@ -4,8 +4,10 @@ import sweetAlert from 'sweetalert2/dist/sweetalert2.all'
 const confirmed = (element, result) => {
   if (result.value) {
     // User clicked confirm button
-    element.removeAttribute('data-confirm-swal')
-    element.click()
+    const currentSwalDataAttribute = element.getAttribute('data-confirm-swal');
+    element.removeAttribute('data-confirm-swal');
+    element.click();
+    element.setAttribute('data-confirm-swal', currentSwalDataAttribute);
   }
 }
 
@@ -39,5 +41,5 @@ function handleConfirm(element) {
   }
 }
 
-Rails.delegate(document, 'a[data-confirm-swal]', 'click', handleConfirm)
+Rails.delegate(document, '[data-confirm-swal]', 'click', handleConfirm)
 
